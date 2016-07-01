@@ -1,0 +1,24 @@
+﻿Build started 28.06.2016 11:10:17.
+     1>Project "C:\Users\efe\documents\visual studio 2012\Projects\KinectVideoSaver\KinectVideoSaver\KinectVideoSaver.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\efe\OpenCV3\opencv\build\include\opencv /IC:\Users\efe\OpenCV3\opencv\build\include /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc" /I"C:\Program Files (x86)\Java\jdk1.8.0_77\include" /I"C:\Program Files (x86)\Java\jdk1.8.0_77\include\win32" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D "WIN32" /D NDEBUG /D _CONSOLE /D "_CRT_SECURE_NO_WARNINGS" /D "_UNICODE" /D "UNICODE" /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(278): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>main.cpp(281): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(301): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(307): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+     1>main.cpp(311): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(213): warning C4101: 'c' : unreferenced local variable
+     1>main.cpp(337): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\conio.h(131) : see declaration of 'getch'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\efe\documents\visual studio 2012\Projects\KinectVideoSaver\Release\KinectVideoSaver.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\efe\OpenCV3\opencv\build\x86\vc11\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\x86" /LIBPATH:"C:\Program Files (x86)\Java\jdk1.8.0_77\lib" /LIBPATH:C:\Users\efe\Documents Kinect20.lib Kinect20.Fusion.lib Kinect20.Face.lib opencv_ts300.lib opencv_world300.lib jvm.lib WS2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\efe\documents\visual studio 2012\Projects\KinectVideoSaver\Release\KinectVideoSaver.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\efe\documents\visual studio 2012\Projects\KinectVideoSaver\Release\KinectVideoSaver.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         Finished generating code
+         KinectVideoSaver.vcxproj -> C:\Users\efe\documents\visual studio 2012\Projects\KinectVideoSaver\Release\KinectVideoSaver.exe
+     1>Done Building Project "C:\Users\efe\documents\visual studio 2012\Projects\KinectVideoSaver\KinectVideoSaver\KinectVideoSaver.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.63
